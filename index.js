@@ -12,7 +12,7 @@ const MONGOURL = process.env.MONGOURL;
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-// Routes
+// Définir le endpoint ou Routes
 app.use("/api/products", productRoute);
 
 // Connection to the Data base
